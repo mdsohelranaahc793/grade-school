@@ -1,0 +1,148 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+nav{
+  background: #162239;
+  z-index: 3;
+  
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background: url('img/video-bg.jpg') no-repeat center center ;
+  background-size: cover;
+}
+.active2{
+   border: 1px solid #F5A425;
+}
+.nav-link:hover{
+  color: #fff;
+  border: 1px solid #F5A425;
+}
+.nav-link{
+  color: #fff;
+  text-transform: uppercase;
+}
+em{
+  color: #F5A425;
+}
+.dropdown-item{
+  color: #fff;
+}
+.dropdown-menu{
+  background: #182434;
+}
+.bg-overlay{
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  background: #192434;
+  opacity: 0.8;
+}
+.bg-video video{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+.header-text{
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+  text-align: center;
+  color: red;
+  padding-top: 70%;
+}
+.btn{
+  background: #F5A425;
+ 
+}
+.accordion{
+  background: #0C1228;
+}
+.card{
+  background: #0C1228;
+}
+.card a{
+  color: #fff;
+  font-weight: 600;
+}
+.card a:hover{
+  text-decoration: none;
+}
+.card:hover{
+  background: #F5A425;
+}
+.why{
+  background: url('img/choosing-bg.jpg');
+  
+}
+h3{
+  border: 1px solid #fff;
+  max-width: 300px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+}
+ 
+.contact-form{
+  background: #F0F0F259;
+  width: 300px;
+  margin: auto;
+}
+.form-control{
+  background: #F0F0F259;
+}
+.count{
+  background: url('img/coming-soon-bg.jpg')
+}
+.count form ::placeholder { 
+  color: #fff;
+  opacity: 1;
+}
+.count form .btn{
+  background: #F5A425;
+}
+.slide-section{
+  background: url('img/choosing-bg.jpg')
+}
+.img{
+  position: relative;
+}
+.video-section{
+  background: url('img/video-bg.jpg')
+}
+.contact{
+  background: url('img/contact-bg.jpg');
+}
+.contact form input{
+  background: #F0F0F259;
+}
+.contact-form-2 {
+  background: #F0F0F259;
+  padding: 20px 5px;
+  box-shadow: 2px 2px 25px #F0F0F259;
+}
+.contact-form-2 .form-control{
+  background: #F0F0F259;
+}
+.contact form ::placeholder{
+  color: #fff;
+}
+.footer{
+  background: #0C1228;
+ 
+}
+.open-menu{
+  font-size: 40px;
+}
